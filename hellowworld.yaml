@@ -1,8 +1,8 @@
-- name: hellowworld
+- name: hellow world
   hosts: local
   connection: local 
   tasks: 
- - name: print hellowworld
-   ansible.builtin.debug:
+  - name: print hellowworld
+    ansible.builtin.debug:
       msg: "hello world"
 
