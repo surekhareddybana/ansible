@@ -2,12 +2,12 @@
   hosts: frontend
   become: yes #sudo access
   tasks:
-- name : install nginx server 
+  - name : install nginx server 
     ansible.bultin.package:
        name: nginx
        state: present
-- name: start nginx
-   ansible.bultin.service:
-- name: nginx
-   state: started
-   enabled: yes
+  - name: start nginx
+    ansible.bultin.service:
+      name: nginx
+      state: started
+      enabled: yes
