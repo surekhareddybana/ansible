@@ -9,10 +9,10 @@
   - name: greeting
     prompt: please enter the greeting
     private: false
-   tasks:
-   - name: print the greeting
-     vars:
-       greeting: "hello from task"
+  tasks:
+  - name: print the greeting
+    vars:
+      greeting: "hello from task"
      ansible.builtin.debug:
        msg: "{{ greeting }}"
 
