@@ -1,0 +1,6 @@
+- name: print the course details
+  hosts: frontend
+  tasks:
+  - name: print the course values
+    ansible:builtin.debug:
+      msg: " hi your course name is {{ COURSE }}, duration is {{ DURATION }}, trainer is {{ TRAINER }}"
