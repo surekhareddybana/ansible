@@ -1,7 +1,4 @@
-- name: varibales in the file
-  hosts: local
-  connection: local
-  vars:
+
    Course: Devops and aws
    duration: 120 hrs
    trainer: siva
