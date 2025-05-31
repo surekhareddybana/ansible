@@ -12,5 +12,5 @@
       msg: "{{ hello }},{{ course }}"
 
   - name: print course details
-     ansible.builtin.debug:
+    ansible.builtin.debug:
        msg: "{{ hello }},{{ course }}"
