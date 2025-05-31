@@ -2,6 +2,6 @@
   hosts: local
   connection: local
   vars:
-   course: Devops and aws
+   Course: Devops and aws
    duration: 120 hrs
    trainer: siva
