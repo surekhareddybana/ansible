@@ -10,3 +10,7 @@
      hello: devops
     ansible.builtin.debug:
       msg: "{{ hello }},{{ course }}"
+
+  - name: print course details
+     ansible.builtin.debug:
+       msg: "{{ hello }},{{ course }}"
