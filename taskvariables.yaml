@@ -6,5 +6,7 @@
     course: 10hrs for a day
   tasks:
   - name: print course details
+    vars:
+     hello: devops
     ansible.builtin.debug:
       msg: "{{ hello }},{{ course }}"
