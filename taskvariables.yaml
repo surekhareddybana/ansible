@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   tasks:
-   - name: play variables
-      vars:
+  - name: print course details
+    vars:
       hello: ansible
       course: 10hrs for a day
       ansible.builtin.debug:
-        msg: "{{ hello }, { course }"
+        msg: "{{ hello }},{{ course }}"
