@@ -5,5 +5,5 @@
   - course.yaml
   tasks:
   - name: print the course information
-    ansible.builtin.debug:
-    msg: "{{ course }}, {{ duration }}, {{ trainer }}"
+     ansible.builtin.debug:
+       msg: "{{ course }}, {{ duration }}, {{ trainer }}"
