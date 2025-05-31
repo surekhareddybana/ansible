@@ -5,7 +5,7 @@
   vars:
     DURATION: 120 #THIS IS NUMBER
     COURSE: "DEVOPS"
-    IS LIVE: true
+    IS_LIVE: true
     tools: #list
     - linux
     - ansible
@@ -16,4 +16,4 @@
     tasks:
     - name: print course information
       ansible.builtin.debug:
-        msg: "{{ COURSE }},{{ DURATION }}, {{IS LIVE }}"
+        msg: "{{ COURSE }},{{ DURATION }}, {{IS_LIVE }}"
