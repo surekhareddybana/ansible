@@ -7,3 +7,8 @@
   - name: check undefined variable
     ansible.builtin.debug:
       msg: "hello {{ person | default('ramesh') }}"
+
+  - name: print names
+    ansible.builtin.debug:
+       msg: "{{ person | split(',') }}"
+
