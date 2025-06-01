@@ -4,7 +4,7 @@
   tasks:
   - name: print names
     ansible.builtin.debug:
-       msg: " hello "
+       msg: "hello {{ item }}" #hear item is a reserved keyword
     loop:
     - suresh
     - ramesh
