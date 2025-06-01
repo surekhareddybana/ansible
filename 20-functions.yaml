@@ -23,7 +23,7 @@
   - name: convert list into map
     vars:
       course:
-      - {'key': 'name', 'value': 'ansible'}
+      - {'key': 'name', 'value': 'devops'}
       - {'key': 'duration', 'value': '10hr'}
       - {'key': 'trainer', 'value': 'siva'}
    ansible.builtin.debug:
