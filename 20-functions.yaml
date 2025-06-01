@@ -19,7 +19,7 @@
        duration: 120 hrs
        trainer: siva
     ansible.builtin.debug:
-       msg: "course information:{{ course | dict2items }}"
+       msg: "course information: {{ course | dict2items }}"
     - name: convert list into map
       vars:
         course:
