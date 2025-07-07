@@ -8,6 +8,7 @@
   - name: print course details
     vars:
      hello: devops
+     course: 2hrs
     ansible.builtin.debug:
       msg: "{{ hello }},{{ course }}"
 
