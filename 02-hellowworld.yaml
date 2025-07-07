@@ -1,6 +1,6 @@
 - name: hellow world
   hosts: local
-  connection: local 
+  connection: local #no need of user name and password
   tasks: 
   - name: print hellowworld
     ansible.builtin.debug:
