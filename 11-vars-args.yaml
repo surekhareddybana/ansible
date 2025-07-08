@@ -1,6 +1,6 @@
 - name: values from arguments
-  hosts: frontend
-  #connection: local
+  hosts: local
+  connection: local
   tasks:
   - name: values from args
     ansible.builtin.debug:
