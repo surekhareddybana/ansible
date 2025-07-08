@@ -4,7 +4,7 @@
   vars:
     NUMBER: 78
   tasks:
-  - name: print if the number is less than or equal to 100
+  - name: print if the number is less than or equal to 100 # this is name of task
     ansible.builtin.debug:
       msg: "given number is {{ NUMBER }} is lessthan or equal to 100"
     when: NUMBER <= 100
