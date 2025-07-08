@@ -5,7 +5,7 @@
   - name : install nginx server 
     ansible.builtin.package:
       name: nginx
-      state: present
+      state: present # present means nginx is install and state = absent means nginx is uninstall
   - name: start nginx
     ansible.builtin.service:
       name: nginx

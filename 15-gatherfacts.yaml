@@ -1,4 +1,4 @@
-- name: gathering facts
+- name: gathering facts #facts means variables
   hosts: local
   connection: local
   tasks:
