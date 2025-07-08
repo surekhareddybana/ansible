@@ -3,11 +3,11 @@
   connection: local
   tasks:
   vars_prompt:
-  - name: USERNAME
-    prompt: please enter your USERNAME
+  - name: USERNAME #hear USERNAME is variable
+    prompt: please enter your usernmae
     private: true
-  - name: PASSWORD
-    prompt: please enter your PASSWORD
+  - name: PASSWORD # hear PASSWORD is variable
+    prompt: please enter your password
     private: true
   tasks:
   - name: printing user information
