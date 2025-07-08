@@ -1,7 +1,6 @@
 - name: ansible datatypes
   hosts: local
   connection: local
-  tasks:
   vars:
     DURATION: 120 #THIS IS NUMBER
     COURSE: "DEVOPS" # this is string
