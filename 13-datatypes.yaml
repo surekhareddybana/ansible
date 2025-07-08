@@ -12,7 +12,7 @@
     concepts: # objects, map{if line is start with - that is list otherwise map or onject..object is reffer {} braces}
       ci: jenkins
       scripting: "shell, ansible, terraform, python"
-    tasks:
-    - name: print course information
-      ansible.builtin.debug:
-        msg: "{{ COURSE }},{{ DURATION }}, {{IS_LIVE }}, tooles are: {{ tools }}"
+  tasks:
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "{{ COURSE }},{{ DURATION }}, {{IS_LIVE }}, tooles are: {{ tools }}"
