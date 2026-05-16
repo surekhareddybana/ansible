@@ -5,7 +5,7 @@
     DURATION: 120 #THIS IS NUMBER
     COURSE: "DEVOPS" # this is string
     IS_LIVE: true # this is boolean
-    tools: #list
+    tools: #list[]
     - linux
     - ansible
     - shell

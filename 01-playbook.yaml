@@ -1,4 +1,4 @@
-- name: ping the server
+- name: ping the server #name of the playbook
   hosts: frontend
   tasks: #{ connect to server and after excute list of tasks #list of tasks execute
   - name: ping the server
