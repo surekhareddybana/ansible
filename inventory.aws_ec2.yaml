@@ -1,13 +1,14 @@
 plugin: amazon.aws.aws_ec2
 regions:
 - us-east-1
+
+filters:
+  tag:Name: frontend
+  instance-state-name : running
 keyed_groups: 
 - key: tags.Name #dynamic-frontend
   prefix : "dynamic"
   separator: "-"
-filters:
-  tag:Name: frontend
-  instance-state-name : running
 hostnames:
   #you can also specify a list in order of precedence for hostname varibales.
   - private-ip-address
