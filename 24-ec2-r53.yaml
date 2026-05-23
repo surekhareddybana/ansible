@@ -18,4 +18,4 @@
        image_id: ami-0220d79f3f480ecf5
        tags: 
        Environment: Testing
-    loop: "{{ instance }}"
+    loop: "{{ instances }}"
