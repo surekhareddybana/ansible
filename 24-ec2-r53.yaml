@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-  - frontend
-  - mysql
-  - backend
+   - frontend
+   - mysql
+   - backend
   subnet_id: subnet-0063079a1ab1cd62b
   sg_id: sg-00953dfcb5786f057
   tasks:
