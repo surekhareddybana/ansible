@@ -6,8 +6,8 @@
       - frontend # these are all variable values
       - mysql
       - backend
-  subnet_id: subnet-0063079a1ab1cd62b
-  sg_id: sg-00953dfcb5786f057
+    subnet_id: subnet-0063079a1ab1cd62b
+    sg_id: sg-00953dfcb5786f057
   tasks:
   - name: create ec2
     amazon.aws.ec2_instance:
